@@ -18,9 +18,17 @@ int main(){
     file.close();
 
     for (int a: v)
-    for (int b: v){
-        if(a+b == 2020){
-            cout<< a * b << endl;
-        }
+        for (int b: v)
+            {
+                if(a+b == 2020){
+                    cout<< a * b << endl;
+                }
+            }
+
+    for (int a: v)
+        for (int b: v)
+            for (int c: v)
+    if(a+b+c == 2020){
+        cout<< a * b * c << endl;
     }
 }
